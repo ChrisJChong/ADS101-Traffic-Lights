@@ -45,6 +45,10 @@ class InfoViewController: UIViewController {
         Click the button below to proceed
         """
         
+        //Set text colour
+        subtitleHeaderLabel.textColor = .black
+        informationBodyLabel.textColor = .black
+        
         //Set the button text
         userPageButton.setTitle("Next", for: .normal)
         

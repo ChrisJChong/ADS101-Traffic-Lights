@@ -35,6 +35,9 @@ class ViewController: UIViewController {
         //Sets the subtitle header
         introductionSubtitleLabel.text = "WHAT ARE TRAFFIC LIGHTS ?"
         
+        //Set text colour
+        introductionLabel.textColor = .black
+        introductionSubtitleLabel.textColor = .black
         
         //Sets the introdction body of the text
         introductionLabel.text = """
